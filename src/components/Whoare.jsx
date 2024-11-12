@@ -32,7 +32,7 @@ const Services = () => {
             <div className="relative z-1 max-w-[15rem] ml-auto">
               <h4 className="h4 mb-4">Website developers</h4>
               <p className="body-2 mb-[3rem] text-n-3">
-                A well functioning website meets the needs of your customers.
+                A well-functioning website meets the needs of your customers.
               </p>
               <ul className="body-2">
                 {incodeServices.map((item, index) => (
