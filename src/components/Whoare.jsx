@@ -2,7 +2,7 @@ import Section from "./Section";
 import Heading from "./Heading";
 import { check, captura, captura2 } from "../assets";
 import { incodeServices, incodeServicesIcons } from "../constants";
-import Particles from "@/components/ui/particles"
+
 
 
 
@@ -54,7 +54,7 @@ const Services = () => {
 
 
               <div className="absolute inset-0 flex flex-col justify-end p-8 bg-gradient-to-b from-n-13/0 to-n-12/90 lg:p-15">
-                <h2 className="h4 mb-4">INCODE presents successful websites</h2>
+                <h1 className="h5 mb-4"> Successful websites</h1>
                 <p className="body-2 mb-[3rem] text-n-3">
                   A good website always focuses on the needs of the consumer, we create a site where your audience can find you effectively and is so attractive that they want to stay in the browser, so in INCODE, we take care of Branding and Web Design.
                 </p>

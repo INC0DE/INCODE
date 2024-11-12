@@ -64,7 +64,7 @@ const Technologies = () => {
 
         <div className="lg:ml-auto xl:w-[38rem] mt-4">
 
-          <div className="relative left-1/2 flex w-[28rem]  -translate-x-1/2 scale:75 md:scale-100">
+          <div className="relative left-1/2 flex w-[26rem]  -translate-x-1/2 scale:75 md:scale-100">
 
             <IconCloud iconSlugs={slugs} />
           </div>
