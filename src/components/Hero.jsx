@@ -1,19 +1,9 @@
-import { useEffect, useState } from "react";
-import { useTheme } from "next-themes";
-import Particles from "@/components/ui/particles";
 import { fulllogo, } from "../assets";
 import Section from "./Section";
 
 
 
 const Hero = () => {
-
-  const { theme } = useTheme();
-  const [color, setColor] = useState("#ffffff");
-
-  useEffect(() => {
-    setColor(theme === "dark" ? "#ffffff" : "#ffffff");
-  }, [theme]);
 
   return (
     <Section
@@ -39,13 +29,6 @@ const Hero = () => {
           </h1>
         </div>
       </div>
-      <Particles
-        className="absolute inset-0"
-        quantity={500}
-        ease={50}
-        color={color}
-        refresh
-      />
     </Section>
   );
 };

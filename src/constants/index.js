@@ -167,7 +167,7 @@ export const pricing = [
     id: '0',
     title: 'Business',
     description: 'Static website',
-    price: '6999',
+    price: '5999',
     features: [
       'Static Content.',
       'Page design and unlimited Design changes.',
@@ -180,7 +180,7 @@ export const pricing = [
 
     title: 'Business Black',
     description: 'Functional pro website',
-    price: '27999',
+    price: '25999',
     features: [
       ' Functional Content',
       'Page design and unlimited Design changes.',
@@ -193,7 +193,7 @@ export const pricing = [
     id: '2',
     title: 'Business White',
     description: 'Functional website',
-    price: '19999',
+    price: '15999',
     features: [
       'Functional Content.',
       'Page design and unlimited Design changes.',
