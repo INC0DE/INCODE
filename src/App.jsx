@@ -1,5 +1,5 @@
 import ButtonGradient from "./assets/svg/ButtonGradient";
-import Why from "./components/Why";
+import Whytech from "./components/Whytech";
 import Technologies from "./components/Technologies";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
@@ -17,7 +17,7 @@ const App = () => {
         <Hero />
         <Whoare />
         <Technologies />
-        <Why />
+        <Whytech />
         <Portfolio />
         <Pricing />
         <Coming />

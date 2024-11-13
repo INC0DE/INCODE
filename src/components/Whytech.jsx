@@ -4,7 +4,7 @@ import Section from "./Section";
 import { GradientLight } from "./design/Benefits";
 import ClipPath from "../assets/svg/ClipPath";
 
-const Benefits = () => {
+const Whytech = () => {
   return (
     <Section id="features">
       <div className="container relative z-2">
@@ -60,4 +60,4 @@ const Benefits = () => {
   );
 };
 
-export default Benefits;
+export default Whytech;

@@ -4,9 +4,7 @@ import { check, captura, captura2 } from "../assets";
 import { incodeServices, incodeServicesIcons } from "../constants";
 
 
-
-
-const Services = () => {
+const Whoare = () => {
   return (
     <Section id="who">
       <div className="container">
@@ -114,4 +112,4 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default Whoare;
