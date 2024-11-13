@@ -45,7 +45,12 @@ export const navigation = [
   }
 ];
 
-export const incodeServices = ['Website Design', 'Frontend Developer', 'Backend Developer'];
+export const incodeServices = [
+  'Compatibility with any device.',
+  'Websites for any sector.',
+  'Visual concept, graphic design and branding.',
+  'Stay on the Internet with a hosting and a domain name.'
+];
 
 export const incodeServicesIcons = [recording03, recording01, disc02, chromecast, sliders04];
 
@@ -96,10 +101,6 @@ export const collabContent = [
     id: '1',
     title: 'Backend',
     text: backText
-  },
-  {
-    id: '2',
-    title: 'Diseño'
   }
 ];
 
@@ -165,40 +166,40 @@ export const collabApps = [
 export const pricing = [
   {
     id: '0',
-    title: 'Business',
-    description: 'Static website',
+    title: 'Business.',
+    description: 'Static website.',
     price: '5999',
     features: [
       'Static Content.',
       'Page design and unlimited Design changes.',
       'Maintenance.',
-      'HOISTING and domain included'
+      'Hoisting and domain included.'
     ]
   },
   {
     id: '1',
 
-    title: 'Business Black',
-    description: 'Functional pro website',
+    title: 'Business Black.',
+    description: 'Functional pro website.',
     price: '25999',
     features: [
-      ' Functional Content',
+      ' Functional Content.',
       'Page design and unlimited Design changes.',
       'Maintenance.',
-      'HOISTING and domain included',
+      'Hoisting and domain included.',
       'Data Base.'
     ]
   },
   {
     id: '2',
-    title: 'Business White',
-    description: 'Functional website',
+    title: 'Business White.',
+    description: 'Functional website.',
     price: '15999',
     features: [
       'Functional Content.',
       'Page design and unlimited Design changes.',
       'Maintenance.',
-      'HOISTING and domain included'
+      'Hoisting and domain included.'
     ]
   }
 ];
