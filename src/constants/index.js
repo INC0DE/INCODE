@@ -24,7 +24,7 @@ import {
 export const navigation = [
   {
     id: '0',
-    title: 'Who we are',
+    title: 'Who are we',
     url: '#who'
   },
   {

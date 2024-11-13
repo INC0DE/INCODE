@@ -11,7 +11,7 @@ const Services = () => {
     <Section id="who">
       <div className="container">
         <Heading
-          title="Who we are?"
+          title="Who are we?"
           text="Empowering your brand."
         />
 
