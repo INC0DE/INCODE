@@ -8,6 +8,7 @@ import Pricing from "./components/Pricing";
 import Portfolio from "./components/Portfolio";
 import Whoare from "./components/Whoare";
 import Coming from "./components/Comingsoon";
+import Description from "./components/Description";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
         <Header />
         <Hero />
         <Whoare />
+        <Description />
         <Technologies />
         <Whytech />
         <Portfolio />

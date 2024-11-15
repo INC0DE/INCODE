@@ -86,7 +86,7 @@ export const proyects = [
   },
   {
     id: '3',
-    title: 'Dashboard',
+    title: 'Admin Dashboard',
     text: 'It is a daily life task manager that is made with technologies such as React, Next and Tailwind.',
     videoUrl: 'https://www.youtube.com/embed/RL7l_MxD2A0?si=VfPzs_UpDKtR0HvZ',
     backgroundUrl: titleincode
