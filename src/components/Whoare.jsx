@@ -20,7 +20,7 @@ const Whoare = () => {
 
             <div className="absolute top-0 left-0 w-full h-full pointer-events-none md:w-3/5 xl:w-auto">
               <img
-                className="w-full h-full object-cover md:object-right"
+                className="w-full h-full object-cover brightness-75 md:object-right"
                 width={800}
                 alt="INCODE"
                 height={730}
@@ -93,7 +93,7 @@ const Whoare = () => {
                 </ul>
               </div>
 
-              <div className="relative h-[20rem] bg-n-12 rounded-xl overflow-hidden md:h-[25rem]">
+              <div className="relative h-[20rem] brightness-75  bg-n-12 rounded-xl overflow-hidden md:h-[25rem]">
                 <img
                   src={captura}
                   className="w-full h-full object-cover"
