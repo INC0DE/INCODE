@@ -1,6 +1,6 @@
 import Heading from "./Heading";
 import Section from "./Section";
-import { infoProyects, proyects } from "../constants";
+import { proyects } from "../constants";
 import HeroVideoDialog from "@/components/ui/hero-video-dialog";
 
 const Portfolio = () => (
@@ -32,8 +32,8 @@ const Portfolio = () => (
                       thumbnailAlt="Hero Video"
                     />
                   </div>
-                  <h4 className="notranslate h4 mb-4">{item.title}</h4>
-                  <p className="body-2 text-n-4">{item.text}</p>
+                  <h4 className="notranslate h4 mb-4 text-n-11 ">{item.title}</h4>
+                  <p className="body-2 ">{item.text}</p>
                 </div>
               </div>
             </div>

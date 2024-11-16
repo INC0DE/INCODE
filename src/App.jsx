@@ -9,6 +9,7 @@ import Portfolio from "./components/Portfolio";
 import Whoare from "./components/Whoare";
 import Coming from "./components/Comingsoon";
 import Description from "./components/Description";
+import Infoplans from "./components/Infoplans";
 
 const App = () => {
   return (
@@ -20,8 +21,9 @@ const App = () => {
         <Description />
         <Technologies />
         <Whytech />
-        <Portfolio />
         <Pricing />
+        <Infoplans />
+        <Portfolio />
         <Coming />
         <Footer />
       </div>

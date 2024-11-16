@@ -9,7 +9,7 @@ const Pricing = () => {
       <div className="container relative z-2">
 
         <Heading
-          title="Investment plans"
+          title="Packages for your investment."
         />
 
         <div className="relative">

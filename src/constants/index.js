@@ -16,8 +16,6 @@ import {
   html,
   css,
   tailwind,
-  incodeblack,
-  titleblack,
   titleincode
 } from '../assets';
 
@@ -34,14 +32,21 @@ export const navigation = [
   },
   {
     id: '2',
-    title: 'portfolio',
-    url: '#portfolio'
-  },
-
-  {
-    id: '3',
     title: 'plans',
     url: '#pricing'
+  },
+  {
+    id: '3',
+    title: 'portfolio',
+    url: '#portfolio'
+  }
+];
+
+export const contactUS = [
+  {
+    id: '1',
+    title: 'Instagram',
+    urlContact: 'https://www.instagram.com/direct/t/17845898610324322'
   }
 ];
 
@@ -53,52 +58,6 @@ export const incodeServices = [
 ];
 
 export const incodeServicesIcons = [recording03, recording01, disc02, chromecast, sliders04];
-
-export const infoProyects = [
-  {
-    id: '1',
-    title: 'Gamification',
-    text: 'Add game-like elements, such as badges or leaderboards, to incentivize users to engage with the chatbot more frequently.',
-    imageUrl: incode
-  },
-  {
-    id: '2',
-    title: 'Gamification',
-    text: 'Add game-like elements, such as badges or leaderboards, to incentivize users to engage with the chatbot more frequently.',
-    imageUrl: incode
-  }
-];
-
-export const proyects = [
-  {
-    id: '1',
-    title: 'Apple Clone',
-    text: 'It is an apple site that is made with technologies such as React and Three.',
-    videoUrl: 'https://www.youtube.com/embed/GKyro1yiNFE?si=p9B1Ww9MYI23jxQk',
-    backgroundUrl: titleincode
-  },
-  {
-    id: '2',
-    title: 'Music Space',
-    text: 'It is a music player that is made with technologies such as React and Tailwind among other libraries.',
-    videoUrl: 'https://www.youtube.com/embed/2-NJCP70gso?si=o9qOcQ5gnuyjwhyw',
-    backgroundUrl: titleincode
-  },
-  {
-    id: '3',
-    title: 'Admin Dashboard',
-    text: 'It is a daily life task manager that is made with technologies such as React, Next and Tailwind.',
-    videoUrl: 'https://www.youtube.com/embed/RL7l_MxD2A0?si=VfPzs_UpDKtR0HvZ',
-    backgroundUrl: titleincode
-  },
-  {
-    id: '4',
-    title: 'Nike Clone',
-    text: 'Its a nike site that is made with technologies such as React and Tailwind',
-    videoUrl: 'https://www.youtube.com/embed/n0pzihFug-k?si=B2K6PvipUI2l5KiB',
-    backgroundUrl: titleincode
-  }
-];
 
 export const frontText =
   'The part users can see and interact with, and which is responsible for presenting the information in an attractive way.';
@@ -177,47 +136,6 @@ export const collabApps = [
   }
 ];
 
-export const pricing = [
-  {
-    id: '0',
-    title: 'Business.',
-    description: 'Static website.',
-    price: '5999',
-    features: [
-      'Static Content.',
-      'Page design and unlimited Design changes.',
-      'Maintenance.',
-      'Hoisting and domain included.'
-    ]
-  },
-  {
-    id: '1',
-
-    title: 'Business Black.',
-    description: 'Functional pro website.',
-    price: '25999',
-    features: [
-      ' Functional Content.',
-      'Page design and unlimited Design changes.',
-      'Maintenance.',
-      'Hoisting and domain included.',
-      'Data Base.'
-    ]
-  },
-  {
-    id: '2',
-    title: 'Business White.',
-    description: 'Functional website.',
-    price: '15999',
-    features: [
-      'Functional Content.',
-      'Page design and unlimited Design changes.',
-      'Maintenance.',
-      'Hoisting and domain included.'
-    ]
-  }
-];
-
 export const technologies = [
   {
     id: '0',
@@ -272,13 +190,78 @@ export const technologies = [
   }
 ];
 
-export const contactUS = [
+export const pricing = [
+  {
+    id: '0',
+    title: 'Business.',
+    description: 'Static website.',
+    price: '5999',
+    features: [
+      'Static Content.',
+      'Page design and unlimited Design changes.',
+      'Maintenance.',
+      'Hoisting and domain included.'
+    ]
+  },
   {
     id: '1',
-    title: 'Instagram',
-    urlContact: 'https://www.instagram.com/direct/t/17845898610324322'
+
+    title: 'Business Black.',
+    description: 'Functional pro website.',
+    price: '25999',
+    features: [
+      ' Functional Content.',
+      'Page design and unlimited Design changes.',
+      'Maintenance.',
+      'Hoisting and domain included.',
+      'Data Base.'
+    ]
+  },
+  {
+    id: '2',
+    title: 'Business White.',
+    description: 'Functional website.',
+    price: '15999',
+    features: [
+      'Functional Content.',
+      'Page design and unlimited Design changes.',
+      'Maintenance.',
+      'Hoisting and domain included.'
+    ]
   }
 ];
+
+export const proyects = [
+  {
+    id: '1',
+    title: 'Apple Clone',
+    text: 'It is an apple site that is made with technologies such as React and Three.',
+    videoUrl: 'https://www.youtube.com/embed/GKyro1yiNFE?si=p9B1Ww9MYI23jxQk',
+    backgroundUrl: titleincode
+  },
+  {
+    id: '2',
+    title: 'Music Space',
+    text: 'It is a music player that is made with technologies such as React and Tailwind among other libraries.',
+    videoUrl: 'https://www.youtube.com/embed/2-NJCP70gso?si=o9qOcQ5gnuyjwhyw',
+    backgroundUrl: titleincode
+  },
+  {
+    id: '3',
+    title: 'Admin Dashboard',
+    text: 'It is a daily life task manager that is made with technologies such as React, Next and Tailwind.',
+    videoUrl: 'https://www.youtube.com/embed/RL7l_MxD2A0?si=VfPzs_UpDKtR0HvZ',
+    backgroundUrl: titleincode
+  },
+  {
+    id: '4',
+    title: 'Nike Clone',
+    text: 'Its a nike site that is made with technologies such as React and Tailwind',
+    videoUrl: 'https://www.youtube.com/embed/n0pzihFug-k?si=B2K6PvipUI2l5KiB',
+    backgroundUrl: titleincode
+  }
+];
+
 export const socials = [
   {
     id: '1',
