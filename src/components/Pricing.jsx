@@ -22,7 +22,7 @@ const Pricing = () => {
           <a
             className="text-xs font-code font-bold tracking-wider uppercase border-b"
           >
-            Prices do not include VAT
+            Prices include VAT
           </a>
         </div>
       </div>
