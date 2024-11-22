@@ -149,7 +149,7 @@ export const technologies = [
   {
     id: '1',
     title: 'HTML5',
-    text: ' HTML is the foundation on which the web is built. Its simplicity, universal compatibility and ability to work together with CSS and JavaScript make it essential and effective for developing quality web content and applications.',
+    text: ' HTML is the foundation on which the web is built. Its simplicity, universal compatibility as well as the ability to work with CSS and JavaScript. It makes it essential and effective for developing content in quality web applications.',
     backgroundUrl: './src/assets/benefits/card-2.svg',
     iconUrl: html,
     imageUrl: html
@@ -200,7 +200,7 @@ export const pricing = [
       'Static Content.',
       'Page design and unlimited Design changes.',
       'Maintenance.',
-      'Hoisting and domain included.'
+      'Hosting and domain included.'
     ]
   },
   {
@@ -213,7 +213,7 @@ export const pricing = [
       ' Functional Content.',
       'Page design and unlimited Design changes.',
       'Maintenance.',
-      'Hoisting and domain included.',
+      'Hosting and domain included.',
       'Data Base.'
     ]
   },
@@ -226,7 +226,7 @@ export const pricing = [
       'Functional Content.',
       'Page design and unlimited Design changes.',
       'Maintenance.',
-      'Hoisting and domain included.'
+      'Hosting and domain included.'
     ]
   }
 ];

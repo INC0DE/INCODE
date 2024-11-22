@@ -10,7 +10,7 @@ const Whoare = () => {
       <div className="container">
         <Heading
           title="Who are we?"
-          text="Empowering your brand."
+          text="Boosting your brand."
         />
 
         <div className="relative">
@@ -30,7 +30,7 @@ const Whoare = () => {
 
             <div className="relative z-1 max-w-[15rem] ml-auto">
               <h4 className="h4 mb-4 text-n-11">Website developers</h4>
-              <p className="body-2 mb-[3rem] text-n-3">
+              <p className="body-2 mb-[3rem] text-n-1">
                 Design, creation and maintenance.
               </p>
               <ul className="body-2">
