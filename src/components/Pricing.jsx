@@ -14,8 +14,6 @@ const Pricing = () => {
 
         <div className="relative">
           <PricingList />
-          <LeftLine />
-          <RightLine />
         </div>
 
         <div className="flex justify-center mt-10">

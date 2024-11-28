@@ -1,3 +1,6 @@
+
+import { motion } from "motion/react"
+
 import { technologies } from "../constants";
 import Heading from "./Heading";
 import Section from "./Section";
@@ -15,14 +18,15 @@ const Whytech = () => {
 
         <div className="flex flex-wrap gap-10 mb-10">
           {technologies.map((item) => (
-            <div
-              className="block relative p-0.5 bg-no-repeat bg-[length:100%_100%] md:max-w-[24rem]"
+            <motion.div
+              className="block relative p-0.5 bg-no-repeat bg-[length:100%_100%] md:max-w-[22rem]"
               style={{
                 backgroundImage: `url(${item.backgroundUrl})`,
               }}
+              whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.8 }}
               key={item.id}
             >
-              <div className="relative z-2 flex flex-col min-h-[22rem] p-[2.4rem] pointer-events-none">
+              <div className="relative z-2 flex flex-col min-h-[18rem] p-[2.4rem] pointer-events-none">
                 <h5 className="notranslate h5 mb-5 text-n-11">{item.title}</h5>
                 <p className="body-2 mb-6 text-n-1">{item.text}</p>
                 <div className="flex items-center mt-auto">
@@ -49,7 +53,7 @@ const Whytech = () => {
               </div>
 
               <ClipPath />
-            </div>
+            </motion.div>
           ))}
         </div>
 
