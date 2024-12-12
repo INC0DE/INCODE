@@ -1,6 +1,7 @@
 import Heading from "./Heading";
 import Section from "./Section";
 import { proyects } from "../constants";
+import { motion } from "motion/react"
 import HeroVideoDialog from "@/components/ui/hero-video-dialog";
 
 const Portfolio = () => (
@@ -14,8 +15,9 @@ const Portfolio = () => (
         {proyects.map((item) => {
 
           return (
-            <div
+            <motion.div
               className={`md:flex even:md:translate-y-[7rem] p-0.25 rounded-[2.5rem]`}
+              whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.8 }}
               key={item.id}
             >
 
@@ -36,7 +38,7 @@ const Portfolio = () => (
                   <p className="body-2 ">{item.text}</p>
                 </div>
               </div>
-            </div>
+            </motion.div>
           );
         })}
 

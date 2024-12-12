@@ -1,7 +1,6 @@
 import { check } from "../assets";
 import { collabApps, collabContent } from "../constants";
 import IconCloud from "@/components/ui/icon-cloud";
-import Button from "./Button";
 import Section from "./Section";
 
 
